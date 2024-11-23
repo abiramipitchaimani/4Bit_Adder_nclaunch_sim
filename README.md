@@ -83,12 +83,16 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2024-11-23 145658](https://github.com/user-attachments/assets/676dfbdf-ebf7-4496-902d-daf70028a857)
+
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-11-23 145717](https://github.com/user-attachments/assets/a12724ae-c120-45e1-9a59-758ac3f7d2a3)
+
 
 ### Fig 5:cds.lib file Creation
 
@@ -111,6 +115,8 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-11-23 145732](https://github.com/user-attachments/assets/fa77b0d1-eae4-40a9-ae8f-01c812d365bd)
+
 
 ### Fig 7: Nclaunch Window
 
@@ -132,6 +138,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ### Fig 8: Compiled database in worklib
+![Screenshot 2024-11-23 145745](https://github.com/user-attachments/assets/64e14cd9-0a4e-460e-b63a-1e1aaf755fe9)
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -165,10 +173,15 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-11-23 145757](https://github.com/user-attachments/assets/90ce0708-24b4-4269-a4c0-79745929091f)
 
 ### Fig 10: Design Browser window for simulation
+![Screenshot 2024-11-23 145809](https://github.com/user-attachments/assets/9fc0113a-c176-4237-9117-c7196879e16f)
+
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![Screenshot 2024-11-23 145818](https://github.com/user-attachments/assets/bc8bb55f-39a3-4a33-8030-47fedfacb479)
+
 
 ### Fig 12: Simulation Waveform Window
 
